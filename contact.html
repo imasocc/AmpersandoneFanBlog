@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AMPERS&amp;ONE Fan Blog - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <nav class="main-nav">
+        <a href="index.html" class="logo">AMPERS&amp;ONE Blog</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="music.html">Music &amp; Lyrics</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-wrapper">
+    <h1>Contact Me</h1>
+    <p>
+        This is a small fan-made project for my coding class, dedicated to AMPERS&amp;ONE and ANDEAR.
+        If you have feedback about the site, want to share your favorite songs, or just want to say hi,
+        you can use the form below.
+    </p>
+
+    <section class="contact-layout">
+        <!-- CONTACT FORM -->
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name<span class="required">*</span></label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email<span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="andeartype">Are you an ANDEAR?</label>
+                <select id="andeartype" name="andeartype">
+                    <option value="">Choose one (optional)</option>
+                    <option value="yes">Yes, I’m ANDEAR!</option>
+                    <option value="new">I’m new to AMPERS&amp;ONE</option>
+                    <option value="curious">I’m just curious</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="favorite-member">Favorite Member</label>
+                <select id="favorite-member" name="favorite-member">
+                    <option value="">I love them all</option>
+                    <option value="kamden">Kamden</option>
+                    <option value="brian">Brian</option>
+                    <option value="jiho">Jiho</option>
+                    <option value="siyun">Siyun</option>
+                    <option value="kyrell">Kyrell</option>
+                    <option value="mackiah">Mackiah</option>
+                    <option value="seungmo">Seungmo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <span>How did you find this site?</span>
+                <label>
+                    <input type="radio" name="referrer" value="school">
+                    School / class project link
+                </label>
+                <label>
+                    <input type="radio" name="referrer" value="friend">
+                    Friend
+                </label>
+                <label>
+                    <input type="radio" name="referrer" value="search">
+                    Search / browsing
+                </label>
+                <label>
+                    <input type="radio" name="referrer" value="other">
+                    Other
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message<span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" required
+                    placeholder="Share your favorite song, bias, or feedback about the site!"></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- SIDE INFO -->
+        <aside class="contact-aside">
+            <h2>About This Page</h2>
+            <ul>
+                <li>This is a fan-made AMPERS&amp;ONE blog.</li>
+                <li>Created as a final project for my HTML/CSS coding class.</li>
+                <li>All information and opinions here are unofficial.</li>
+                <li>If this were a real site, this form would be used to read fan messages and feedback.</li>
+            </ul>
+        </aside>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 AMPERS&amp;ONE Fan Blog · Fan-made project</p>
+</footer>
+</body>
+</html>
